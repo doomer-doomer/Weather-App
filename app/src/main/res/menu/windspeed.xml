@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/kmhr"
+        android:title="Kilometers (kph)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/mihr"
+        android:title="Miles (mph)"
+        app:showAsAction="never"/>
+</menu>

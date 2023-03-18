@@ -1,0 +1,35 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:title="Unit Conversion">
+
+        <ListPreference
+            app:key="temp"
+            app:title="Temperature"
+            app:entries="@array/temp"
+            app:entryValues="@array/temp_values"
+            app:defaultValue="temp"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            app:key="spd"
+            app:title="Wind Speed"
+            app:entries="@array/sped"
+            app:entryValues="@array/sped_values"
+            app:defaultValue="spd"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            app:key="pres"
+            app:title="Air Pressure"
+            app:entries="@array/pres"
+            app:entryValues="@array/pres_values"
+            app:defaultValue="pres"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

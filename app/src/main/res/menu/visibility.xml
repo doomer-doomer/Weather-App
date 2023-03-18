@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/km"
+        android:title="Kilometers (km)"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/mi"
+        android:title="Miles (m)"
+        app:showAsAction="never"/>
+</menu>

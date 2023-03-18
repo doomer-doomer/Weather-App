@@ -1,0 +1,32 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="temp">
+        <item>Celcius</item>
+        <item>Farenheit</item>
+    </string-array>
+
+    <string-array name="sped">
+        <item>Km/Hr</item>
+        <item>M/Hr</item>
+    </string-array>
+
+    <string-array name="pres">
+        <item>Millibar</item>
+        <item>Inch</item>
+    </string-array>
+
+    <string-array name="temp_values">
+        <item>temp</item>
+        <item>temp_all</item>
+    </string-array>
+
+    <string-array name="sped_values">
+        <item>spd</item>
+        <item>spd_all</item>
+    </string-array>
+
+    <string-array name="pres_values">
+        <item>pres</item>
+        <item>pres_all</item>
+    </string-array>
+</resources>
